@@ -1,0 +1,24 @@
+{
+  "name": "msg_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleter/messenger_bot.git"
+  },
+  "author": "Szymon Janowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleter/messenger_bot/issues"
+  },
+  "homepage": "https://github.com/sleter/messenger_bot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  }
+}
