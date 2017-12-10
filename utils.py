@@ -18,7 +18,7 @@ def get_news_elements(categories):
     news_client = gnewsclient()
     news_client.query = ''
     if categories['newstype'] != None:
-        news_client.query += categories['newstype']
+        news_client.query += categories['newstype'] + ' '
     if categories['location'] != None:
         news_client.query += categories['location']
 
@@ -38,4 +38,4 @@ def get_news_elements(categories):
         elements.append(element)
     return elements
 
-print(wit_response("i want sport news"))
+#print(get_news_elements(wit_response("i want sport news from poland")))

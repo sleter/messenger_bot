@@ -39,6 +39,7 @@ def webhook():
 
                     categories = wit_response(messaging_text)
                     elements = get_news_elements(categories)
+                    print(categories)
                     bot.send_text_message(sender_id, elements)
 
     return "ok", 200
