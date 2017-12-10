@@ -1,6 +1,0 @@
-pip freeze > requirements.txt
-git add .
-git commit -m "asd"
-heroku create //dla nowego repo
-heroku git:remote -a protected-stream-71565
-git push heroku master
