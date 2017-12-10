@@ -30,8 +30,8 @@ def get_news_elements(categories):
                     'title': item['title'],
                     'buttons': [{
                                 'type': 'web_url',
-                                "url": item['link'],
-                                "title": "Read more"
+                                'url': item['link'],
+                                'title': 'Read more'
                     }],
                     'image_url': item['img']
         }
